@@ -1,0 +1,33 @@
+//
+//  Passenger.h
+//  College Demo
+//
+//  Created by mashujun on 2022/7/18.
+//
+
+#import "Person.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface Orders : NSObject
+@property (nonatomic, copy) NSString *ticket;
+- (void)addticket:(NSString)arg1;
+- (void)deduct_ticket;
+@end
+
+@interface Passenger : Person
+bool checkage;
+int number = 0;
+Orders[20];
+// @property 属性
+// 是否年满 18 岁
+// 历史订单 （数组）
+// 未出行订单 （数组）
+- (void)buy_tickets:(NSString)arg1;
+- (void)check_tickets;
+// Function 方法
+// 去订票
+// 去检票
+@end
+
+NS_ASSUME_NONNULL_END

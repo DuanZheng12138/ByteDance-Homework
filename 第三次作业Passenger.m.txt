@@ -1,0 +1,29 @@
+//
+//  Passenger.m
+//  College Demo
+//
+//  Created by mashujun on 2022/7/18.
+//
+
+#import "Passenger.h"
+
+
+@implementation Orders
+- (void)add_ticket:(NSString)arg1 {
+    tickets = arg1;
+}
+- (void)deduct_ticket {
+    ticket = NULL;
+}
+@end
+
+@implementation Passenger
+- (void)buy_tickets:(NSString)arg1 {
+    Order[number].add_ticket(arg1);
+    number++;
+}
+- (void)check_tickets {
+    Orders[number].deduct_ticket;
+    number--;
+}
+@end
