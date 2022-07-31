@@ -1,0 +1,14 @@
+//
+//  main.m
+//  ByteDance-Homework-2
+//
+//  Created by 李萍 on 2022/7/31.
+//
+
+#import "Student.h"
+@implementation Student
+- (void)study:(float)arg1 {
+    NSLog(@"%f",arg1);
+}
+
+@end
